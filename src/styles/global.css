@@ -1,0 +1,17 @@
+
+.no-margin{
+    margin: 0;
+}
+.container-padding {
+    padding-inline: 6rem;
+    padding-block: 2rem;
+    position: relative;
+    z-index: 1;
+}
+h1, p,h2,h3,h4, button{
+    color: white;
+}
+h1,h2,h3,h4{
+    width: 100%;
+}
+

@@ -1,0 +1,81 @@
+.main-height {
+    height: 100vh;
+}
+.main-background {
+    background-image: linear-gradient(293deg, #52ff80 10%, #0D2A48 100%);
+    overflow: hidden;
+}
+
+.text-container{
+    position: relative;
+    width: 100%;
+}
+.info{
+    z-index: 1;
+    padding-block: 4rem;
+}
+
+.text-container{
+    width: 80%;
+}
+/* .img-container{
+    width: 80%;
+    float: right;
+} */
+.main-img {
+    position: absolute;
+    overflow: hidden;
+    width: 50%;
+    bottom: 0px;
+    right: 0;
+    z-index: 0;
+
+}
+.main-img img{
+    width: 100%;
+    object-fit: contain;
+    mask: radial-gradient(ellipse closest-side at center, #fff, transparent 100%);
+    z-index: 0;
+    opacity: .5;
+}
+.text-container{
+    width: 100%;
+    padding-block: 4rem;
+}
+@media (max-width: 767px) {
+    .main-img {
+        left: 0;
+        width: 100%;
+        bottom: 0px;
+    }
+    .main-img img {
+        width: 100%;
+        
+        z-index: 0;
+    }
+    .text-container{
+        text-align: center;
+    }
+}
+@media (min-height: 525px) and (min-width: 700px) and (max-width: 1000px) {
+    .main-height{
+        height: 625px;
+        position: relative;
+    } 
+    .main-img {
+        left: 50%;
+        bottom: 0px;
+    }
+
+    .main-img img {
+
+        width: 100%;
+        
+
+    }
+}
+@media (max-width: 612px) {
+    .container-padding {
+        padding-inline: 2rem;
+    }
+}

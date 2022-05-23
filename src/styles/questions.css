@@ -1,0 +1,24 @@
+.questions-height {
+    height: 100vh;
+}
+.questions-background{
+    background-image: linear-gradient(293deg, #52ff80 10%, #0D2A48 100%);
+    overflow: hidden;
+}
+.FAQs-image-container{
+    position: absolute;
+    overflow: hidden;
+}
+.FAQs-image-container img{
+    margin-left: 25%;
+    width: 100%;
+    opacity: .5;
+    z-index: 0;
+    mask: radial-gradient(ellipse closest-side at center, #fff, transparent 100%);
+}
+@media (max-width: 767px) {
+    .FAQs-image-container img {
+        margin-left: 0;
+    }
+
+}

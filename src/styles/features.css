@@ -1,0 +1,15 @@
+.features-height {
+    min-height: 100vh;
+}
+.features-background{
+    background-image: linear-gradient(293deg, #F65097 10%, #9C1ADF 100%);
+        overflow: hidden;
+}
+.feature img{
+    width: 5rem;
+}
+/* @media (max-width: 767px) {
+    .features-height{
+        height: auto
+    }
+} */

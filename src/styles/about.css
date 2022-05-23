@@ -1,0 +1,7 @@
+.about-height {
+    height: 100vh;
+}
+.about-background {
+    background-image: linear-gradient(293deg, #52ff80 10%, #F65097 100%);
+    overflow: hidden;
+}

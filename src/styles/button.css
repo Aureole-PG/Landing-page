@@ -1,0 +1,12 @@
+.btn{
+    color: white;
+    border-radius: 10px;
+    padding-inline: 1.6rem;
+}
+.color-1{
+    background-color: #F65097;
+}
+.btn img{
+    width: 1.5rem;
+    margin-inline: 5px;
+}
