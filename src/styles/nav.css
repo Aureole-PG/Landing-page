@@ -1,0 +1,77 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.096);
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    padding-block: 10px;
+}
+.social img{
+    margin-inline: .3rem;
+    height: 20px;
+    z-index: 1;
+}
+.logo img{
+    height: 60px;
+    z-index: 1;
+}
+/*  */
+.hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    /* position: absolute; */
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+ .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+
+ .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+}
+.hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+.hamburger-open .line1 {
+    transform: rotate(45deg);
+}
+.hamburger-open .line2 {
+    transform: scaleY(0);
+}
+.hamburger-open .line3 {
+    transform: rotate(-45deg);
+}
+
+/*  */
+.modal-container{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.modal-open{
+    height: 100vh;
+}
+/*  */
+.modal-container a{
+    text-decoration: none;
+}

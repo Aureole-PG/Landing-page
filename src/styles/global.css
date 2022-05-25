@@ -1,4 +1,10 @@
 
+@font-face {
+    font-family: 'QuendaMedium';
+    src: local('Quenda-Medium'),
+        url(../fonts/Quenda-Medium.otf) format('opentype')
+    /* #Quenda-Medium.otf */
+}
 .no-margin{
     margin: 0;
 }
@@ -8,10 +14,43 @@
     position: relative;
     z-index: 1;
 }
-h1, p,h2,h3,h4, button{
+.green-background{
+    background-image: linear-gradient(293deg, #89C599 10%, #0D2A48 100%);
+}
+.black-green-background {
+    background-image: linear-gradient(293deg, #0D2A48 10%, #89C599 100%);
+}
+.purple-background {
+    background-image: linear-gradient(293deg, #0D2A48 10%, #9C1ADF 100%);
+}
+.pink-background {
+    background-image: linear-gradient(293deg, #9C1ADF 10%, #F65097 100%);
+}
+.purple-pink-background {
+    background-image: linear-gradient(293deg, #F65097 10%, #9C1ADF 100%);
+}
+.pink-green-background {
+    background-image: linear-gradient(293deg, #89C599 10%, #F65097 100%);
+}
+body{
+font-family: 'QuendaMedium';
+position: relative;
+}
+h1, p,h2,h3,h4, button, input,nav{
     color: white;
+    font-family: 'QuendaMedium';
 }
 h1,h2,h3,h4{
     width: 100%;
+}
+section{
+    padding-top: 80px;
+}
+
+#root{
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    /* scroll-behavior: smooth; */
 }
 

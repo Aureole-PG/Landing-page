@@ -1,0 +1,22 @@
+.t-main-title{
+    font-size: clamp( 5vh, 5vw, 3rem) ;/*60pt*/
+}
+.t-title {
+    font-size: clamp(4vh, 4vw, 2.5rem); /*50pt*/
+}
+.t-sub-title{
+    font-size:clamp(3vh, 2vw, 2rem); /*35pt*/
+}
+.t-paragraph{
+    font-size: clamp(2vh, 1.3vw, 1.5rem); /*24pt*/
+}
+.t-description{
+    font-size: 1rem;/*21pt*/
+}
+.t-button{
+    font-size: 25pt;
+}
+
+.text-justify{
+    text-align: justify;
+}

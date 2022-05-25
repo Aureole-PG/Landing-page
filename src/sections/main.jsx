@@ -4,7 +4,7 @@ import Inicio from "../assets/img/inicio_.jpg";
 import DownloadButton from "../components/Button";
 const Main = () => {
   return (
-    <section className="main-height main-background">
+    <section id="main" className="main-height green-background">
       <div className="main-img">
         <img src={Inicio} alt="" />
       </div>
@@ -16,22 +16,16 @@ const Main = () => {
             </div>
           </div>
           <div className="col-12 col-md-6 ">
-            <div className="main-height info d-flex align-content-between flex-wrap">
-              <h1 className="text-center text-md-start">
-                Conéctate y <br /> cambia tu vida
+            <div className=" info d-flex align-content-between flex-wrap">
+              <h1 className="text-center text-md-start t-main-title">
+                Permítete SER <br /> en todas tus <br /> facetas
               </h1>
-              <p className="text-center text-md-start">
+              <p className="text-center text-md-start t-paragraph main-margin">
                 Utiliza esta app gratuita en la que puedes conectar con otras
                 mujeres, aprender con ellas, compartir tus conocimientos y
-                opiniones en un entorno amable y de comunidad. Un lugar donde
-                abrazamos la imperfección, la diversión, la libertad y creamos
-                este espacio para uir y conectar desde los valores de la
-                amistad, el respeto y la sororidad.
+                opiniones en un entorno amable y de comunidad.
               </p>
-              <h4 className="text-center text-md-start">
-                Permítete SER en todas tus facetas.
-              </h4>
-              <div className="w-100 d-flex justify-content-center">
+              <div className="w-100 d-flex main-margin">
                 <DownloadButton />
               </div>
               {/* </div> */}
