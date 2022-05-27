@@ -25,7 +25,7 @@ const Main = () => {
                 mujeres, aprender con ellas, compartir tus conocimientos y
                 opiniones en un entorno amable y de comunidad.
               </p>
-              <div className="w-100 d-flex main-margin">
+              <div className="w-100 d-flex justify-content-center main-margin">
                 <DownloadButton />
               </div>
               {/* </div> */}

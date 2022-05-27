@@ -30,7 +30,7 @@
 .acordion-h-active{
     background-color: #e2e2e200;
     border-bottom: 2px solid white;
-
+    transition: all .2s ease-in-out;
 }
 .acordion-header button{
     width: 100%;
@@ -39,12 +39,11 @@
 }
 .acordion-body {
     overflow: hidden;
-    height: 0;
-    transition: transform .15s ease-in-out;
+    display: none;
+    transition: all .5s ease-in-out;
 }
 .acordion-body-active {
-    /* height: 100px; */
-    transition: transform .15s ease-in-out;
+    display: block;
 }
 
 .arrow {

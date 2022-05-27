@@ -32,14 +32,20 @@
     }
 
 }
+
+/*  */
+.t-description a {
+    color: white !important;
+}
+
 /*  */
 
 
 input[type=range] {
     height: 10px; 
     -webkit-appearance: none;
-    margin: 10px 0;
-    width: 100%;
+    margin-block: 20px ;
+    width: 50%;
     pointer-events: none;
 }
 

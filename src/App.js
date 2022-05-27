@@ -13,7 +13,7 @@ import Questions from "./sections/questions";
 function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Scroll />
       <Main />
       <Features />

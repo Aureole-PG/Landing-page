@@ -11,6 +11,12 @@ nav{
     height: 20px;
     z-index: 1;
 }
+.green{
+    margin-block: 20px;
+}
+.green img{
+    height: 50px !important;
+}
 .logo img{
     height: 60px;
     z-index: 1;
@@ -74,4 +80,7 @@ nav{
 /*  */
 .modal-container a{
     text-decoration: none;
+}
+.nav-height{
+    padding-top:70px ;
 }

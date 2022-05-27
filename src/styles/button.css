@@ -2,9 +2,26 @@
     color: white;
     border-radius: 10px;
     padding-inline: 1.6rem;
+    padding-block: 10px;
+}
+.btn-2 {
+    color: white;
+    border-radius: 5px;
+    padding-inline: 1.6rem;
+    padding-block: 5px;
+    border: 0;
+    margin: 2rem;
 }
 .color-1{
-    background-color: #F65097;
+    background-color: #9C1ADF;
+}
+
+.color-2 {
+    background-color: #9C1ADF;
+    border: 1px solid white;
+}
+.color-3 {
+    background-color: #0D2A48;
 }
 .btn img{
     width: 1.5rem;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../styles/nav.css";
-
+import { HashLink as Link } from "react-router-hash-link";
 import logo from "../assets/logo/logo.png";
 import Menu from "./Menu";
 import SocialMedia from "./SocialMedia";
@@ -17,7 +17,9 @@ const Nav = () => {
           </div>
           <div className="col-6 col-sm-4">
             <div className="d-flex justify-content-start justify-content-sm-center align-items-center logo">
-              <img src={logo} alt="" />
+              <Link to="/#main">
+                <img src={logo} alt="" />
+              </Link>
             </div>
           </div>
           <div className="col-6 col-sm-4">
@@ -34,7 +36,7 @@ const Nav = () => {
           </div>
         </div>
       </div>
-      <Menu open={open} />
+      <Menu open={open} setOpen={() => setOpen(!open)} />
     </nav>
   );
 };

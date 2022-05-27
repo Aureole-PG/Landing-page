@@ -14,6 +14,9 @@
     position: relative;
     z-index: 1;
 }
+.height{
+    min-height: 100vh;
+}
 .green-background{
     background-image: linear-gradient(293deg, #89C599 10%, #0D2A48 100%);
 }
@@ -26,11 +29,17 @@
 .pink-background {
     background-image: linear-gradient(293deg, #9C1ADF 10%, #F65097 100%);
 }
+.pink-blue-background {
+    background-image: linear-gradient(293deg, #0D2A48 10%, #F65097 100%);
+}
 .purple-pink-background {
     background-image: linear-gradient(293deg, #F65097 10%, #9C1ADF 100%);
 }
 .pink-green-background {
     background-image: linear-gradient(293deg, #89C599 10%, #F65097 100%);
+}
+.t-color-blue{
+    color: #0D2A48;
 }
 body{
 font-family: 'QuendaMedium';
@@ -42,6 +51,9 @@ h1, p,h2,h3,h4, button, input,nav{
 }
 h1,h2,h3,h4{
     width: 100%;
+}
+a{
+    text-decoration: none;
 }
 section{
     padding-top: 80px;
