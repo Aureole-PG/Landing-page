@@ -21,8 +21,13 @@ root.render(
       </Routes>
       <CookieConsent
         buttonText="Aceptar"
+        style={{ background: "#404040" }}
+        buttonStyle={{ backgroundColor: "#89C599", color: "#fff" }}
       >
-        Utilizamos cookies para asegurar que damos la mejor experiencia al usuario en nuestro sitio web. <Link to="/cookies">Más información</Link>
+        <div className='d-flex'>
+          Utilizamos cookies para asegurar que damos la mejor experiencia al usuario en nuestro sitio web. <Link to="/cookies" style={{ marginInline: '5px' }}><p className='t-blue'> Más información</p> </Link>
+        </div>
+
       </CookieConsent>
     </BrowserRouter>
 

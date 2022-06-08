@@ -1,0 +1,47 @@
+.s-features-height{
+    height: 100vh;
+    
+    position: relative;
+}
+.s-feature-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.s-feature-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: .5;
+    z-index: 0;
+    mask: radial-gradient(ellipse closest-side at center, #fff, transparent 200%);
+}
+.cards-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+}
+.feature-card{
+    background-color: #fff;
+    border-radius: 10px;
+    border-bottom: 8px solid #89C599;
+    height: 225px;
+    padding: 10px;
+    overflow: hidden;
+}
+.card-text-container{
+    height: 105px;
+}
+.card-img-container img{
+    height: 100px;
+}
+
+@media (max-width: 767px) {
+    .s-features-height{
+        height: auto;
+        min-height: 100vh;
+    }
+
+}

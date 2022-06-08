@@ -17,15 +17,11 @@ const Contact = () => {
     },
     validationSchema: yup.object(validationSchema()),
     onSubmit: (formData) => {
-      // alert("XD");
       console.log(formData);
     },
   });
   const _handleSubmit = () => {
     if (submitValue === "100") {
-      // if (formRef.current) {
-      //   formRef.dispatchEvent(new Event("submit"));
-      // }
       sendMessage.handleSubmit();
     }
     setSubmitValue(0);
@@ -41,7 +37,10 @@ const Contact = () => {
           <div className="col-12 col-md-6">
             <div className="d-block">
               <p className="t-title no-margin">¡Queremos saber de ti!</p>
-              <p>Envíanos un mensaje y permítete SER. </p>
+              <p className="t-description">
+                ¿En qué te podemos ayudar? Con tus propuestas estás ayudando a
+                otras mujeres
+              </p>
             </div>
 
             <form ref={formRef} className="needs-validation">

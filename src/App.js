@@ -1,4 +1,3 @@
-import Nav from "./components/Nav";
 import Scroll from "./components/Scroll";
 import About from "./sections/about";
 import Aditional from "./sections/aditional";
@@ -8,14 +7,15 @@ import Footer from "./sections/footer";
 import Main from "./sections/main";
 import Media from "./sections/media";
 import Questions from "./sections/questions";
+import SecondFeatures from "./sections/secondFeatures";
 
 
 function App() {
   return (
     <>
-      {/* <Nav /> */}
       <Scroll />
       <Main />
+      <SecondFeatures />
       <Features />
       <Media />
       <About />

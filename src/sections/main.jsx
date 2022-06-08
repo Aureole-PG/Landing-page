@@ -18,12 +18,11 @@ const Main = () => {
           <div className="col-12 col-md-6 ">
             <div className=" info d-flex align-content-between flex-wrap">
               <h1 className="text-center text-md-start t-main-title">
-                Permítete SER <br /> en todas tus <br /> facetas
+                UnitedWom es una aplicación <br /> para compartir
               </h1>
               <p className="text-center text-md-start t-paragraph main-margin">
-                Utiliza esta app gratuita en la que puedes conectar con otras
-                mujeres, aprender con ellas, compartir tus conocimientos y
-                opiniones en un entorno amable y de comunidad.
+                Atraer lo que necesitas en cada momento, unir fuerzas, conectar
+                experiencias y fluir con tus emociones
               </p>
               <div className="w-100 d-flex justify-content-center main-margin">
                 <DownloadButton />

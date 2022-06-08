@@ -1,4 +1,3 @@
-import mediaImg from "../assets/img/video.png";
 import "../styles/media.css";
 import DownloadButton from "../components/Button";
 const Media = () => {
@@ -9,7 +8,14 @@ const Media = () => {
     >
       <div className="container container-padding ">
         <div className="media-container">
-          <img src={mediaImg} alt="" />
+          <iframe
+            src="https://player.vimeo.com/video/717273296?h=ea4d106e49"
+            width="100%"
+            height="500px"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          />
         </div>
         <div className="d-flex justify-content-center media-button-margin">
           <DownloadButton secodary />

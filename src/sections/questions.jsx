@@ -16,11 +16,35 @@ const Questions = () => {
               Si necesitas saber más, estas son algunas de las respuestas más
               comunes. Si tienes más preguntas, contáctanos.
             </p>
-            <Badge title={"¿Qué es UnitedWom?"} />
-            <Badge title={"¿Qué puedo hacer aquí?"} />
-            <Badge title={"¿Qué hago si no encuentro lo que busco?"} />
-            <Badge title={"¿Quiénes son las embajadoras?"} />
-            <Badge title={"¿Cómo puedo ser una embajadora?"} />
+            <Badge
+              title={"¿Qué es UnitedWom?"}
+              description={`UnitedWom se presenta en una App gratuita en la que puedes conectar con otras mujeres, aprender con ellas y compartir tus conocimientos y opiniones en un entorno amable y de comunidad. 
+                `}
+            />
+            <Badge
+              title={"¿Qué puedo hacer aquí?"}
+              description={`Puedes apuntarte de forma ilimitada a cualquier actividad que otra mujer o negocio han creado para ti. Ocio, deportes, autocuidado, networking, desarrollo personal o formación son algunas de los planes que podrás encontrar aquí. 
+                También podrás, sugerir planes o bien proponer alguna charla de algo que te apetezca compartir. 
+                ¡Si eres un negocio, puedes anunciarte proponiéndonos alguna actividad y así podamos conocerte! 
+                Y si crees que todavía no es tu momento, nos puedes acompañar simplemente estando hasta que te apetezca participar.
+              `}
+            />
+            <Badge
+              title={"¿Cómo puedo ser una embajadora?"}
+              description={`En UnitedWom no queremos ponernos límites. Queremos seguir sumando y aprendiendo. Por ello, si quieres estar y pertenecer de forma activa y frecuente a la comunidad, ahora puedes hacerte embajadora! Escríbenos contándonos cosas de ti y nos pondremos en contacto para facilitarte el proceso. 
+                `}
+            />
+            <Badge
+              title={"¿Qué hago si no encuentro lo que busco? "}
+              description={`UnitedWom es una comunidad que crece con cada una de sus usuarias. Todas podemos aportar algo diferente y así hacernos más fuertes cuando compartimos. Por ello, si no encuentras lo que buscas/necesitas propónnoslo. Seguro que hay alguien que busca lo mismo que tú.
+                `}
+            />
+            <Badge
+              title={"¿Cómo puedo invitar a mis amigas a Unitedwom?"}
+              description={`¡Estupendo! ¡Todas somos bienvenidas! 
+                Es muy sencillo, comparte este enlace (Android - iOS) y le facilitarás el acceso.  
+                `}
+            />
           </div>
         </div>
         <div className="row">
@@ -50,11 +74,7 @@ const Badge = ({ title, description }) => {
         </button>
       </div>
       <div className={`acordion-body ${active ? "acordion-body-active" : ""}`}>
-        <p className="t-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-          dicta officia, voluptas alias nobis unde enim dolor nemo hic numquam
-          ipsam, fuga amet mollitia saepe? Quia ea ad unde sapiente.
-        </p>
+        <p className="t-description">{description}</p>
       </div>
     </div>
   );

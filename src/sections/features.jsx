@@ -17,20 +17,12 @@ const Features = () => {
             <Feature
               image={Icono1}
               title="Cuida tu interior"
-              text={`Tendrás acceso a espacios donde
-                    liberar tu mente y ampliar tus
-                    horizontes acompañada de
-                    mujeres con tus mismas
-                    inquietudes.`}
+              text={`Tendrás acceso a espacios donde liberar tu mente y ampliar tus horizontes acompañada de mujeres con tus mismas inquietudes.`}
             />
             <Feature
               image={cuerpo}
               title="Cuida tu cuerpo"
-              text={`Es fundamental en todas las
-facetas de nuestra vida y aquí te
-proponemos alternativas y
-soluciones para que lo puedas
-realizar`}
+              text={`El cuidado de nuestro cuerpo es fundamental en todas las facetas de nuestra vida y aquí te proponemos alternativas y soluciones para que lo puedas realizar.`}
             />
           </div>
           <div className="col-12 col-md-4 col-lg-5">
@@ -42,19 +34,12 @@ realizar`}
             <Feature
               image={deporte}
               title="Deporte"
-              text={`¿Te apetece probar algún deporte?
-Aquí puedes iniciarte en el
-deporte que quieras. Por ejemplo:
-pádel, defensa personal, pilates,
-etc.`}
+              text={`¿Te apetece probar algún deporte. Aquí puedes iniciarte en el deporte que quieras, por ejemplo, pádel, defensa personal, pilates, etc.`}
             />
             <Feature
               image={idiomas}
               title="Idiomas"
-              text={`¿Quieres aprender, practicar otro
-idioma? Conecta con otras
-mujeres que te ayuden con ese
-idioma.`}
+              text={`¿Quieres aprender, practicar otro idioma? Conecta con otras mujeres que te ayuden con ese idioma.`}
             />
           </div>
         </div>
@@ -63,10 +48,7 @@ idioma.`}
             <Feature
               image={maternidad}
               title="Maternidad"
-              text={`Tener apoyo y compartir
-experiencias en el embarazo,
-postparto o en la crianza es clave
-para sentirnos fuertes y seguras.`}
+              text={`Tener apoyo y compartir experiencias en el embarazo, postparto o en la crianza es clave para sentirnos fuertes y seguras.`}
             />
           </div>
           <div className="col-12 d-block d-sm-none">
@@ -78,18 +60,14 @@ para sentirnos fuertes y seguras.`}
             <Feature
               image={viajes}
               title="Cultura, viajes, formación"
-              text={`Todo aquello que imagines en
-UnitedWom lo puedes hacer
-acompañada de mujeres con tus
-misma disponibilidad e intereses.`}
+              text={`Todo aquello que imagines en UnitedWom lo puedes hacer acompañada de mujeres con tus misma disponibilidad e intereses.`}
             />
           </div>
           <div className="col-12 col-md-4 col-lg-3-5">
             <Feature
               image={ocio}
               title="Ocio"
-              text={`Acceso a actividades de ocio
-gratuitos y de pago. Tú eliges.`}
+              text={`Acceso a actividades de ocio gratuitos y de pago, tú eliges.`}
             />
           </div>
         </div>

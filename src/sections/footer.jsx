@@ -16,19 +16,38 @@ const Footer = () => {
           <p className="t-color">
             <Link
               style={style}
-              to="/files/politicas_app.docx"
+              to="/files/01-PoliticaDePrivacidadWeb.docx"
               target="_blank"
               download
             >
-              Términos y condiciones
+              Política de privacidad web
             </Link>{" "}
             |{" "}
-            <Link style={style} to="/privacidad">
-              Política de privacidad
+            <Link
+              style={style}
+              to="/files/02-PoliticaDePrivacidadApp.docx"
+              target="_blank"
+              download
+            >
+              Política de privacidad app
             </Link>{" "}
-            | Política de Gestión Ética |{" "}
-            <Link style={style} to="/cookies">
-              Política de cookies.
+            |{" "}
+            <Link
+              style={style}
+              to="/files/03-PoliticasDeCookies.docx"
+              target="_blank"
+              download
+            >
+              Políticas de cookies
+            </Link>{" "}
+            |{" "}
+            <Link
+              style={style}
+              to="/files/04-CondicionesDeUsoUnitedWom.docx"
+              target="_blank"
+              download
+            >
+              Condiciones de uso
             </Link>
           </p>
           <p className="t-color">© 2022 UNITEDWOM All rights reserved.</p>

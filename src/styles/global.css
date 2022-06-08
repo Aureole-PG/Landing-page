@@ -17,6 +17,9 @@
 .height{
     min-height: 100vh;
 }
+.blue-purple-background {
+    background-image: linear-gradient(293deg, #9C1ADF 10%, #0D2A48 100%);
+}
 .green-background{
     background-image: linear-gradient(293deg, #89C599 10%, #0D2A48 100%);
 }
@@ -40,6 +43,9 @@
 }
 .t-color-blue{
     color: #0D2A48;
+}
+.b-color-green{
+    background-color: #89C599;
 }
 body{
 font-family: 'QuendaMedium';
