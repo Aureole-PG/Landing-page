@@ -1,6 +1,6 @@
 import Img from "../assets/img/img1.svg";
 import "../styles/main.css";
-import Inicio from "../assets/img/inicio_.jpg";
+import Inicio from "../assets/img/inicio_.png";
 import DownloadButton from "../components/Button";
 const Main = () => {
   return (

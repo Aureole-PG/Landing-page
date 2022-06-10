@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import "../styles/media.css";
 import DownloadButton from "../components/Button";
 const Media = () => {

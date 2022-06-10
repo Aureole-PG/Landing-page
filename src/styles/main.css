@@ -33,7 +33,7 @@
 .main-img img{
     width: 100%;
     object-fit: contain;
-    mask: radial-gradient(ellipse closest-side at center, #fff, transparent 100%);
+    mask: radial-gradient(ellipse closest-side at center, #fff, transparent 110%);
     z-index: 0;
     opacity: .5;
 }
