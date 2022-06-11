@@ -1,7 +1,8 @@
 import "../styles/footer.css";
 import logo from "../assets/logo/logo2.png";
 import { GreenSocialMedia } from "../components/SocialMedia";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 const style = {
   textDecoration: "none",
   color: "black",
@@ -14,39 +15,19 @@ const Footer = () => {
           <img src={logo} alt="" />
           <GreenSocialMedia />
           <p className="t-color">
-            <Link
-              style={style}
-              to="/files/01-PoliticaDePrivacidadWeb.docx"
-              target="_blank"
-              download
-            >
+            <Link style={style} to="/privacidadWeb#privacity_web">
               Política de privacidad web
             </Link>{" "}
             |{" "}
-            <Link
-              style={style}
-              to="/files/02-PoliticaDePrivacidadApp.docx"
-              target="_blank"
-              download
-            >
+            <Link style={style} to="/privacidadApp#privacity_app">
               Política de privacidad app
             </Link>{" "}
             |{" "}
-            <Link
-              style={style}
-              to="/files/03-PoliticasDeCookies.docx"
-              target="_blank"
-              download
-            >
+            <Link style={style} to="/cookies#cookies">
               Políticas de cookies
             </Link>{" "}
             |{" "}
-            <Link
-              style={style}
-              to="/files/04-CondicionesDeUsoUnitedWom.docx"
-              target="_blank"
-              download
-            >
+            <Link style={style} to="/condiciones#conditions">
               Condiciones de uso
             </Link>
           </p>

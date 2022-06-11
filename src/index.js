@@ -5,8 +5,10 @@ import './styles/global.css';
 import './styles/tipography.css';
 import App from './App';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Cookies from './sections/cookies'
-import Privacity from './sections/privacity'
+import Cookies from './pages/cookies'
+import PrivacityWeb from './pages/privacityWeb'
+import PrivacityApp from './pages/privacityApp'
+import Conditions from './pages/conditions'
 import Nav from './components/Nav';
 import CookieConsent from "react-cookie-consent";
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,8 +18,10 @@ root.render(
       <Nav />
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/privacidadWeb" element={<PrivacityWeb />} />
+        <Route path="/privacidadApp" element={<PrivacityApp />} />
         <Route path="/cookies" element={<Cookies />} />
-        <Route path="/privacidad" element={<Privacity />} />
+        <Route path="/condiciones" element={<Conditions />} />
       </Routes>
       <CookieConsent
         buttonText="Aceptar"

@@ -66,7 +66,7 @@ const Badge = ({ title, description }) => {
       <div className={`acordion-header acordion-h${active ? "-active" : ""}`}>
         <button className="" onClick={() => setActive(!active)}>
           <div className="d-flex justify-content-between">
-            <p className="t-paragraph no-margin">{title}</p>
+            <p className="t-paragraph no-margin text-start">{title}</p>
             <div className="icon">
               <i className={`arrow ${active ? "up" : "down"}`}></i>
             </div>
@@ -74,7 +74,7 @@ const Badge = ({ title, description }) => {
         </button>
       </div>
       <div className={`acordion-body ${active ? "acordion-body-active" : ""}`}>
-        <p className="t-description">{description}</p>
+        <p className="t-description text-justify">{description}</p>
       </div>
     </div>
   );

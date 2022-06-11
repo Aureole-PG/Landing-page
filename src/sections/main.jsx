@@ -1,6 +1,5 @@
-import Img from "../assets/img/img1.svg";
 import "../styles/main.css";
-import Inicio from "../assets/img/inicio_.png";
+import Inicio from "../assets/img/inicio.png";
 import DownloadButton from "../components/Button";
 const Main = () => {
   return (
@@ -10,11 +9,6 @@ const Main = () => {
       </div>
       <div className="container container-padding">
         <div className="row ">
-          <div className="col-12 col-md-6 d-none d-sm-none d-md-block">
-            <div className="img-container">
-              <img src={Img} alt="" />
-            </div>
-          </div>
           <div className="col-12 col-md-6 ">
             <div className=" info d-flex align-content-between flex-wrap">
               <h1 className="text-center text-md-start t-main-title">

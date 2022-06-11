@@ -1,5 +1,5 @@
 import "../styles/secondFeature.css";
-import Image from "../assets/img/FAQs.jpg";
+import Image from "../assets/img/features2.png";
 import Copas from "../assets/iconos/copas.png";
 import Femenino from "../assets/iconos/femenino.png";
 import Globo from "../assets/iconos/globo.png";

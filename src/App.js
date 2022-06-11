@@ -1,6 +1,5 @@
 import Scroll from "./components/Scroll";
 import About from "./sections/about";
-import Aditional from "./sections/aditional";
 import Contact from "./sections/contact";
 import Features from "./sections/features";
 import Footer from "./sections/footer";
@@ -20,7 +19,6 @@ function App() {
       <Media />
       <About />
       <Questions />
-      <Aditional />
       <Contact />
       <Footer />
     </>

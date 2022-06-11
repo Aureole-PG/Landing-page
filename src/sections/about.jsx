@@ -2,7 +2,7 @@ import "../styles/about.css";
 const About = () => {
   return (
     <section id="about" className="about-height pink-green-background">
-      <div className="container container-padding">
+      <div className="container container-padding text-justify">
         <h2 className="t-title">Nuestra historia</h2>
         <p className="t-paragraph">
           Detrás de UnitedWom hay un grupo de mujeres que hemos vivido diversas
@@ -26,29 +26,14 @@ const About = () => {
         <p className="t-paragraph">
           Sabíamos que podíamos mejorar la forma en la que las mujeres
           planteamos nuestras rutinas, vivimos nuestros cambios y conectamos con
-          otras mujeres.
+          otras mujeres, sabíamos que a veces lo que mas queremos, no se
+          encuentra en nuestro círculo mas inmediato. Por ello, teníamos que
+          crear un espacio que nos permitiera atraer todo lo que queremos a
+          nuestras vidas junto a un equipo tecnológico, hemos diseñado un camino
+          hacia la diversión, la libertad, el apoyo y la unión, un espacio para
+          pertenecer y conectar desde los valores de la amistad, el respeto y la
+          sororidad, Nace así, UnitedWom.
         </p>
-        <p className="t-paragraph">
-          Sabíamos que a veces lo que mas queremos, no se encuentra en nuestro
-          círculo mas inmediato.
-        </p>
-        <p className="t-paragraph">
-          Sabíamos que a veces lo que mas queremos, no se encuentra en nuestro
-          círculo mas inmediato.
-        </p>
-        <p className="t-paragraph">
-          Por ello, teníamos que crear un espacio que nos permitiera atraer todo
-          lo que queremos a nuestras vidas.
-        </p>
-        <p className="t-paragraph">
-          Junto a un equipo tecnológico, hemos diseñado un camino hacia la
-          diversión, la libertad, el apoyo y la unión.
-        </p>
-        <p className="t-paragraph">
-          Un espacio para pertenecer y conectar desde los valores de la amistad,
-          el respeto y la sororidad.
-        </p>
-        <p className="t-paragraph">Nace así, UnitedWom.</p>
         <p className="t-paragraph">
           Un lugar, que es un punto de encuentro directo, que te permitirá estar
           en el entorno que necesitas para: <br />

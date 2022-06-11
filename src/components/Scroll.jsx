@@ -15,7 +15,6 @@ const Scroll = () => {
         ></a>
         <a className="point nav-link " href="#about"></a>
         <a className="point nav-link " href="#questions"></a>
-        <a className="point nav-link" href="#aditional"></a>
         <a className="point nav-link" href="#contact"></a>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import Img2 from "../assets/img/img2.svg";
+import Img2 from "../assets/img/img2.png";
 import Icono1 from "../assets/iconos/1tu_interior.png";
 import cuerpo from "../assets/iconos/2tu_cuerpo.png";
 import deporte from "../assets/iconos/3deporte.png";
@@ -58,16 +58,16 @@ const Features = () => {
           </div>
           <div className="col-12 col-md-4 col-lg-5">
             <Feature
-              image={viajes}
-              title="Cultura, viajes, formación"
-              text={`Todo aquello que imagines en UnitedWom lo puedes hacer acompañada de mujeres con tus misma disponibilidad e intereses.`}
+              image={ocio}
+              title="Ocio"
+              text={`Acceso a actividades de ocio gratuitos y de pago, tú eliges.`}
             />
           </div>
           <div className="col-12 col-md-4 col-lg-3-5">
             <Feature
-              image={ocio}
-              title="Ocio"
-              text={`Acceso a actividades de ocio gratuitos y de pago, tú eliges.`}
+              image={viajes}
+              title="Cultura, viajes, formación"
+              text={`Todo aquello que imagines en UnitedWom lo puedes hacer acompañada de mujeres con tus misma disponibilidad e intereses.`}
             />
           </div>
         </div>
