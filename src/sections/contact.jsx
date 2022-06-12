@@ -54,7 +54,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="black-green-background contact-height">
+    <section id="contacto" className="black-green-background contact-height">
       <div className="contact-image-container">
         <img src={Image} alt="" />
       </div>
@@ -80,8 +80,8 @@ const Contact = () => {
                   placeholder="Nombre"
                 />
                 {sendMessage.errors.name && (
-                  <div className="alert ">
-                    <b>* Por favor ingrese su nombre</b>
+                  <div className="alert t-blue">
+                    <b>* Por favor introduzca su nombre.</b>
                   </div>
                 )}
               </div>
@@ -96,8 +96,8 @@ const Contact = () => {
                   placeholder="Correo"
                 />
                 {sendMessage.errors.email && (
-                  <div className="alert ">
-                    <b>* Por favor ingrese su correo</b>
+                  <div className="alert t-blue">
+                    <b>* Por favor introduzca su email.</b>
                   </div>
                 )}
               </div>
@@ -111,8 +111,8 @@ const Contact = () => {
                   placeholder="Teléfono"
                 />
                 {sendMessage.errors.phone && (
-                  <div className="alert ">
-                    <b>* Por favor ingrese su teléfonoe</b>
+                  <div className="alert t-blue">
+                    <b>* Por favor introduzca su teléfonoe</b>
                   </div>
                 )}
               </div>
@@ -124,11 +124,18 @@ const Contact = () => {
                   name="subject"
                   className="form-select"
                 >
-                  <option></option>
+                  <option disabled selected>
+                    --Selecione una opción--
+                  </option>
+                  <option value="Dudas generales">Dudas generales</option>
+                  <option value="Embajadoras">Embajadoras</option>
+                  <option value="Partners">Partners</option>
+                  <option value="Configuración">Configuración</option>
+                  <option value="Otros motivos">Otros motivos</option>
                 </select>
                 {sendMessage.errors.subject && (
-                  <div className="alert ">
-                    <b>* Por favor seleccione el motivo del mensaje</b>
+                  <div className="alert t-blue">
+                    <b>* Por favor selecione una opción.</b>
                   </div>
                 )}
               </div>
@@ -142,12 +149,12 @@ const Contact = () => {
                   placeholder="Mensaje"
                 ></textarea>
                 {sendMessage.errors.message && (
-                  <div className="alert ">
-                    <b>* Por favor ingrese un mensaje</b>
+                  <div className="alert t-blue ">
+                    <b>* Por favor introduzca su mensaje.</b>
                   </div>
                 )}
               </div>
-              <p className="t-description">
+              <p className="t-description text-justify">
                 PROTECCIÓN DE DATOS: Reglamento (UE) 2016/679 RGPD y LOPDGDD
                 3/2018. UnitedWom, S.L., como responsable del tratamiento,
                 tratará sus datos para atender sus solicitudes de información,
@@ -155,7 +162,7 @@ const Contact = () => {
                 derechos de acceso, rectificación y supresión de los datos,
                 entre otros, tal y como se explica en la información adicional
                 que está a su disposición en el apartado de{" "}
-                <Link to="/privacidad">
+                <Link to="/privacidadWeb">
                   Aviso Legal y Política de Privacidad.
                 </Link>
               </p>
@@ -224,7 +231,8 @@ function validationSchema() {
   return {
     name: yup.string().required(true),
     email: yup.string().email().required(true),
-    phone: yup.number().required(true),
+    phone: yup.number(),
+    subject: yup.string().required(true),
     message: yup.string().required(true),
   };
 }

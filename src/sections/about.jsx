@@ -1,7 +1,10 @@
 import "../styles/about.css";
 const About = () => {
   return (
-    <section id="about" className="about-height pink-green-background">
+    <section
+      id="nuestra_historia"
+      className="about-height pink-green-background"
+    >
       <div className="container container-padding text-justify">
         <h2 className="t-title">Nuestra historia</h2>
         <p className="t-paragraph">
@@ -12,9 +15,8 @@ const About = () => {
           El descubrimiento de una nueva vocación, cambios de residencia, la
           jubilación, la maternidad, la menopausia, cambios en nuestros deseos,
           en nuestras pretensiones y expectativas de vida. Cambios de estados a
-          lo largo del tiempo, que provocan al vivirlos, cambios internos que
-          nos han hecho sentir invisibles y que nos cuesta interpretar o
-          solucionar.
+          lo largo del tiempo que provocan al vivirlos, cambios internos que nos
+          han hecho sentir invisibles y que nos cuesta interpretar o solucionar.
         </p>
         <p className="t-paragraph">
           Nos dimos cuenta que: <br />
@@ -26,13 +28,26 @@ const About = () => {
         <p className="t-paragraph">
           Sabíamos que podíamos mejorar la forma en la que las mujeres
           planteamos nuestras rutinas, vivimos nuestros cambios y conectamos con
-          otras mujeres, sabíamos que a veces lo que mas queremos, no se
-          encuentra en nuestro círculo mas inmediato. Por ello, teníamos que
-          crear un espacio que nos permitiera atraer todo lo que queremos a
-          nuestras vidas junto a un equipo tecnológico, hemos diseñado un camino
-          hacia la diversión, la libertad, el apoyo y la unión, un espacio para
-          pertenecer y conectar desde los valores de la amistad, el respeto y la
-          sororidad, Nace así, UnitedWom.
+          otras mujeres.
+        </p>
+        <p className="t-paragraph">
+          Sabíamos que a veces lo que más queremos, no se encuentra en nuestro
+          círculo más inmediato.
+        </p>
+        <p className="t-paragraph">
+          Por ello, teníamos que crear un espacio que nos permitiera atraer todo
+          lo que queremos a nuestras vidas.
+        </p>
+        <p className="t-paragraph">
+          Junto a un equipo tecnológico, hemos diseñado un camino hacia la
+          diversión, la libertad, el apoyo y la unión.  
+        </p>
+        <p className="t-paragraph">
+          Un espacio para pertenecer y conectar desde los valores de la amistad,
+          el respeto y la sororidad.
+        </p>
+        <p className="t-paragraph">
+          Nace así,<b>UnitedWom</b>.
         </p>
         <p className="t-paragraph">
           Un lugar, que es un punto de encuentro directo, que te permitirá estar
@@ -52,7 +67,8 @@ const About = () => {
           mujeres como tú, han creado para compartir.
         </p>
         <p className="t-paragraph">
-          Una aplicación para unirnos,{" "}
+          Una aplicación para unirnos,
+          <br />
           <b>Permítete SER en todas tus facetas. Permítete UnitedWom.</b>
         </p>
       </div>

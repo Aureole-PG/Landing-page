@@ -30,3 +30,8 @@
 .t-withe {
     color: #fff;
 }
+@media (min-width: 768px){
+.text-md-justify {
+        text-align: justify !important;
+    }
+}

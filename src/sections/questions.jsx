@@ -4,13 +4,16 @@ import "../styles/questions.css";
 import Image from "../assets/img/FAQs.jpg";
 const Questions = () => {
   return (
-    <section id="questions" className=" questions-height green-background">
+    <section
+      id="preguntas_frecuentes"
+      className=" questions-height green-background"
+    >
       <div className="FAQs-image-container">
         <img src={Image} alt="" />
       </div>
       <div className="container container-padding">
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-7">
             <p className="t-title">Preguntas frecuentes</p>
             <p className="t-paragraph">
               Si necesitas saber más, estas son algunas de las respuestas más

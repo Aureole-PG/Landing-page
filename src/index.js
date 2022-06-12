@@ -10,6 +10,7 @@ import PrivacityWeb from './pages/privacityWeb'
 import PrivacityApp from './pages/privacityApp'
 import Conditions from './pages/conditions'
 import Nav from './components/Nav';
+import Footer from './sections/footer';
 import CookieConsent from "react-cookie-consent";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,13 +24,14 @@ root.render(
         <Route path="/cookies" element={<Cookies />} />
         <Route path="/condiciones" element={<Conditions />} />
       </Routes>
+      <Footer />
       <CookieConsent
         buttonText="Aceptar"
         style={{ background: "#404040" }}
         buttonStyle={{ backgroundColor: "#89C599", color: "#fff" }}
       >
         <div className='d-flex'>
-          Utilizamos cookies para asegurar que damos la mejor experiencia al usuario en nuestro sitio web. <Link to="/cookies" style={{ marginInline: '5px' }}><p className='t-blue'> Más información</p> </Link>
+          Utilizamos cookies para asegurar que damos la mejor experiencia al usuario en nuestro sitio web. <Link to="/cookies" style={{ marginInline: '5px' }}><p className='t-green'> Más información</p> </Link>
         </div>
 
       </CookieConsent>

@@ -1,21 +1,21 @@
-import "../styles/secondFeature.css";
+import "../styles/weDo.css";
 import Image from "../assets/img/features2.png";
 import Copas from "../assets/iconos/copas.png";
 import Femenino from "../assets/iconos/femenino.png";
 import Globo from "../assets/iconos/globo.png";
 import hacer from "../assets/iconos/hacer.png";
 import infinito from "../assets/iconos/infinito.png";
-const SecondFeatures = () => {
+const WeDo = () => {
   return (
     <section
-      id="secodFeatures"
+      id="nosotras_hacemos"
       className="s-features-height blue-purple-background"
     >
       <div className="s-feature-container">
         <img src={Image} alt="" />
       </div>
       <div className="container container-padding h-100">
-        <div class="h-100 d-flex  align-items-md-end">
+        <div className="h-100 d-flex  align-items-md-end">
           <div className="w-100">
             <p className="t-title text-center">
               ¿Cómo logramos que encuentres esto aquí?
@@ -62,4 +62,4 @@ const FeatureCard = ({ icon, text }) => (
   </div>
 );
 
-export default SecondFeatures;
+export default WeDo;

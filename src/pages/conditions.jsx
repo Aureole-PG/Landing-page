@@ -1,22 +1,28 @@
 const Conditions = () => {
   return (
-    <div id="conditions" className="height black-green-background nav-height">
+    <div
+      id="condiciones_de_uso"
+      className="height black-green-background nav-height"
+    >
       <div className="container container-padding text-justify">
         <h2 className="t-title">Condiciones de uso</h2>
         <p className="t-sub-title">Aviso Legal</p>
         <p className="t-description">
-          UnitedWom, S.L., en cumplimiento de la Ley 34/2002, de 11 de julio, de
-          Servicios de la Sociedad de la Información y de Comercio Electrónico,
-          le informa de que:
+          UnitedWom S.L. (en adelante, UnitedWom) con NIF B42780791, y domicilio
+          en Calle Padre Ramón María Aller, 6 - (36201), Vigo, inscrita en el
+          Registro Mercantil de Vigo, Tomo: 4350, Folio: 110, Sección: 8, Hoja
+          Registral: 67840, Inscripción: 1.
         </p>
         <p className="t-description">
-          Su denominación social es UnitedWom, S.L. <br />
-          Su NIF es B42780791. <br />
-          Su domicilio se ubica en Calle Padre Ramón María Aller, 6 - 36201,
-          Vigo (Pontevedra) España. Está inscrita en el Registro Mercantil de
-          Pontevedra, Tomo 4350 libro, folio 110, hoja 67840 Y dispone de la
-          siguiente dirección de correo electrónico de contacto
-          <a href="mailto:hola@unitedwom.com">hola@unitedwom.com</a>
+          UnitedWom pone la App a disposición de cualquier Usuaria que, en
+          cumplimiento de las condiciones de la licencia de uso de la App, la
+          descargue e instale en su dispositivo móvil.
+        </p>
+        <p className="t-description">
+          UnitedWom facilita la dirección de correo electrónico
+          <a href="mailto:lopd@unitedwom.com ">lopd@unitedwom.com </a> como
+          principal medio de contacto y para la atención de dudas, consultas,
+          sugerencias o quejas.
         </p>
         <p className="t-sub-title">
           Términos y Condiciones de Uso de UnitedWom.
@@ -571,4 +577,3 @@ const Conditions = () => {
 };
 
 export default Conditions;
-//p.t-description

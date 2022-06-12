@@ -1,9 +1,9 @@
 import "../styles/main.css";
 import Inicio from "../assets/img/inicio.png";
 import DownloadButton from "../components/Button";
-const Main = () => {
+const Home = () => {
   return (
-    <section id="main" className="main-height green-background">
+    <section id="home" className="main-height green-background">
       <div className="main-img">
         <img src={Inicio} alt="" />
       </div>
@@ -30,4 +30,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;

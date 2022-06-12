@@ -13,9 +13,9 @@ const Media = () => {
             src="https://player.vimeo.com/video/717273296?h=ea4d106e49"
             width="100%"
             height="500px"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           />
         </div>
         <div className="d-flex justify-content-center media-button-margin">

@@ -6,11 +6,10 @@ import ocio from "../assets/iconos/4ocio.png";
 import idiomas from "../assets/iconos/7idiomas.png";
 import maternidad from "../assets/iconos/8maternidad.png";
 import viajes from "../assets/iconos/9viajes.png";
-import Img from "../assets/img/img1.svg";
 import "../styles/features.css";
 const Features = () => {
   return (
-    <section id="features" className="features-height pink-background ">
+    <section id="categorias" className="features-height pink-background ">
       <div className="container container-padding">
         <div className="row">
           <div className="col-12 col-md-4 col-lg-3-5">
@@ -27,7 +26,9 @@ const Features = () => {
           </div>
           <div className="col-12 col-md-4 col-lg-5">
             <div className="feature-img-container h-100 d-flex align-items-end">
-              <img className="feature-img" src={Img2} alt="" />
+              <div className="feature-img">
+                <img src={Img2} alt="" />
+              </div>
             </div>
           </div>
           <div className="col-12 col-md-4 col-lg-3-5">
@@ -51,22 +52,18 @@ const Features = () => {
               text={`Tener apoyo y compartir experiencias en el embarazo, postparto o en la crianza es clave para sentirnos fuertes y seguras.`}
             />
           </div>
-          <div className="col-12 d-block d-sm-none">
-            <div className="feature-img-container h-100 d-flex align-items-end">
-              <img className="feature-img" src={Img} alt="" />
-            </div>
-          </div>
           <div className="col-12 col-md-4 col-lg-5">
             <Feature
               image={ocio}
               title="Ocio"
               text={`Acceso a actividades de ocio gratuitos y de pago, tú eliges.`}
+              inLine
             />
           </div>
           <div className="col-12 col-md-4 col-lg-3-5">
             <Feature
               image={viajes}
-              title="Cultura, viajes, formación"
+              title="Viajes, cultura, formación"
               text={`Todo aquello que imagines en UnitedWom lo puedes hacer acompañada de mujeres con tus misma disponibilidad e intereses.`}
             />
           </div>
@@ -76,11 +73,15 @@ const Features = () => {
   );
 };
 
-const Feature = ({ image, title, text }) => (
-  <div className="d-blok feature">
-    <img src={image} alt="" />
-    <p className="t-sub-title no-margin">{title}</p>
-    <p className="t-description text-justify">{text}</p>
+const Feature = ({ image, title, text, inLine = false }) => (
+  <div className={`${inLine ? "d-md-flex feature-inline" : "d-blok"}  feature`}>
+    <div className={`d-flex justify-content-center justify-content-md-start`}>
+      <img src={image} alt="unitedWom-icon" />
+    </div>
+    <div className="d-block">
+      <p className="t-sub-title no-margin text-center text-md-start">{title}</p>
+      <p className="t-description text-center text-md-justify ">{text}</p>
+    </div>
   </div>
 );
 

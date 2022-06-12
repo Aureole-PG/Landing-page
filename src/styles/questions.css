@@ -26,7 +26,9 @@
 }
 
 /* acordion */
-
+.custom-acordion{
+    margin: 10px;
+}
 .acordion-h-active{
     background-color: #e2e2e200;
     border-bottom: 2px solid white;

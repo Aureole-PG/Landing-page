@@ -17,7 +17,7 @@ const Nav = () => {
           </div>
           <div className="col-6 col-sm-4">
             <div className="d-flex justify-content-start justify-content-sm-center align-items-center logo">
-              <Link to="/#main">
+              <Link to="/#home">
                 <img src={logo} alt="" />
               </Link>
             </div>

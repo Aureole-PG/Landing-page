@@ -1,7 +1,7 @@
 const PrivacityApp = () => {
   return (
     <div
-      id="privacity_app"
+      id="politica_de_Privacidad_app"
       className="height black-green-background nav-height"
     >
       <div className="container container-padding text-justify">

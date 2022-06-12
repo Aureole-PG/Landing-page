@@ -2,25 +2,24 @@ import Scroll from "./components/Scroll";
 import About from "./sections/about";
 import Contact from "./sections/contact";
 import Features from "./sections/features";
-import Footer from "./sections/footer";
-import Main from "./sections/main";
+import Home from "./sections/home";
 import Media from "./sections/media";
 import Questions from "./sections/questions";
-import SecondFeatures from "./sections/secondFeatures";
+import WeDo from "./sections/weDo";
 
 
 function App() {
   return (
     <>
       <Scroll />
-      <Main />
-      <SecondFeatures />
+      <Home />
+      <WeDo />
       <Features />
       <Media />
       <About />
       <Questions />
       <Contact />
-      <Footer />
+
     </>
   );
 }

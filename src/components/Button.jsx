@@ -23,11 +23,11 @@ export const DownloadButtonText = () => {
 };
 export const MoreButton = () => {
   return (
-    <button className="btn-2 color-3">
+    <a className="btn-2 color-3" href="#contacto">
       <div className="d-flex justify-content-between">
         <p className="no-margin">Saber más</p>
       </div>
-    </button>
+    </a>
   );
 };
 export default DownloadButton;
