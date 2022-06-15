@@ -4,7 +4,7 @@ import Image from "../assets/img/contacto.jpg";
 import { useFormik } from "formik";
 import { Link } from "react-router-dom";
 import * as yup from "yup";
-const url = "/php/contact.php"; //"http://localhost:80/maildata/contacto.php"
+const url = "/php/contact.php";
 const Contact = () => {
   const [submitValue, setSubmitValue] = useState(0);
   const [error, setError] = useState(false);
@@ -41,6 +41,8 @@ const Contact = () => {
         .then((e) => {
           if (e.status === 422) {
             setError(true);
+          } else {
+            setError(false);
           }
         })
         .finally(() => setSend(true));
@@ -180,47 +182,47 @@ const Contact = () => {
               />
               <p className="t-color-blue">Desliza a la derecha para enviar</p>
             </form>
-          </div>
-          <div className="col-12 col-md-6">
-            {send && (
-              <>
-                {error ? (
-                  <div
-                    className="alert alert-danger alert-dismissible fade show"
-                    role="alert"
-                  >
-                    <h5>Se produjo un error al enviar su mensaje</h5>
-                    <button
-                      type="button"
-                      className="btn-close"
-                      data-bs-dismiss="alert"
-                      aria-label="Close"
-                      onClick={() => {
-                        setError(false);
-                        setSend(false);
-                      }}
-                    ></button>
-                  </div>
-                ) : (
-                  <div
-                    className="alert alert-warning alert-dismissible fade show"
-                    role="alert"
-                  >
-                    <h5 className="">Mensaje enviado correctamente</h5>
-                    <button
-                      type="button"
-                      className="btn-close"
-                      data-bs-dismiss="alert"
-                      aria-label="Close"
-                      onClick={() => {
-                        setError(false);
-                        setSend(false);
-                      }}
-                    ></button>
-                  </div>
-                )}
-              </>
-            )}
+            <div className="d-block">
+              {send && (
+                <>
+                  {error ? (
+                    <div
+                      className="alert alert-danger alert-dismissible fade show w-100"
+                      role="alert"
+                    >
+                      <h5>Se produjo un error al enviar su mensaje</h5>
+                      <button
+                        type="button"
+                        className="btn-close"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                        onClick={() => {
+                          setError(false);
+                          setSend(false);
+                        }}
+                      ></button>
+                    </div>
+                  ) : (
+                    <div
+                      className="alert alert-warning alert-dismissible fade show  w-100"
+                      role="alert"
+                    >
+                      <h5 className="">Mensaje enviado correctamente</h5>
+                      <button
+                        type="button"
+                        className="btn-close"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                        onClick={() => {
+                          setError(false);
+                          setSend(false);
+                        }}
+                      ></button>
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
           </div>
         </div>
       </div>

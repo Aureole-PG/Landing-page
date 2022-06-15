@@ -62,7 +62,7 @@
         height: auto;
     }
 }
-@media (min-height: 525px) and (min-width: 700px) and (max-width: 1000px) {
+@media (min-height: 525px) and (min-width: 992px) and (max-width: 1000px) {
     .main-height{
         height: 625px;
         position: relative;

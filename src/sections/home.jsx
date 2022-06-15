@@ -9,7 +9,7 @@ const Home = () => {
       </div>
       <div className="container container-padding">
         <div className="row ">
-          <div className="col-12 col-md-6 ">
+          <div className="col-12 col-lg-6 ">
             <div className=" info d-flex align-content-between flex-wrap">
               <h1 className="text-center text-md-start t-main-title">
                 UnitedWom es una aplicación <br /> para compartir
