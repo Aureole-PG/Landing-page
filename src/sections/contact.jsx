@@ -3,6 +3,7 @@ import "../styles/contact.css";
 import Image from "../assets/img/contacto.jpg";
 import { useFormik } from "formik";
 import { Link } from "react-router-dom";
+import moment from "moment";
 import * as yup from "yup";
 const url = "/php/contact.php";
 const Contact = () => {
@@ -10,6 +11,7 @@ const Contact = () => {
   const [error, setError] = useState(false);
   const [send, setSend] = useState(false);
   const formRef = useRef();
+  const [color, setColor] = useState("#6c757d");
   const sendMessage = useFormik({
     initialValues: {
       name: "",
@@ -20,6 +22,7 @@ const Contact = () => {
     },
     validationSchema: yup.object(validationSchema()),
     onSubmit: (formData) => {
+      let localDate = moment().format("DD-MM-yyyy HH:mm");
       fetch(url, {
         method: "POST",
         headers: {
@@ -36,7 +39,9 @@ const Contact = () => {
           "&subject=" +
           formData.subject +
           "&message=" +
-          formData.message,
+          formData.message +
+          "&localdate=" +
+          localDate,
       })
         .then((e) => {
           if (e.status === 422) {
@@ -120,20 +125,25 @@ const Contact = () => {
               </div>
               <div className="mb-3">
                 <select
-                  onChange={sendMessage.handleChange}
+                  onChange={(e) => {
+                    sendMessage.handleChange(e);
+                    setColor("black");
+                  }}
+                  style={{ color: color }}
                   id="select"
-                  placeholder="--Selecione una opción--"
                   name="subject"
                   className="form-select"
                 >
-                  <option disabled selected>
-                    --Selecione una opción--
+                  <option disabled selected hidden>
+                    Selecione una opción
                   </option>
-                  <option value="Dudas generales">Dudas generales</option>
-                  <option value="Embajadoras">Embajadoras</option>
-                  <option value="Partners">Partners</option>
-                  <option value="Configuración">Configuración</option>
-                  <option value="Otros motivos">Otros motivos</option>
+                  <option defaultValue="Dudas generales">
+                    Dudas generales
+                  </option>
+                  <option defaultValue="Embajadoras">Embajadoras</option>
+                  <option defaultValue="Partners">Partners</option>
+                  <option defaultValue="Configuración">Configuración</option>
+                  <option defaultValue="Otros motivos">Otros motivos</option>
                 </select>
                 {sendMessage.errors.subject && (
                   <div className="alert t-blue">

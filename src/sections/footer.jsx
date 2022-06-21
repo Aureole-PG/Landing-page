@@ -15,19 +15,19 @@ const Footer = () => {
           <img src={logo} alt="" />
           <GreenSocialMedia />
           <p className="t-color">
-            <Link style={style} to="/privacidadWeb#politica_de_Privacidad_web">
+            <Link style={style} to="/privacidadWeb">
               Política de privacidad web
             </Link>{" "}
             |{" "}
-            <Link style={style} to="/privacidadApp#politica_de_Privacidad_app">
+            <Link style={style} to="/privacidadApp">
               Política de privacidad app
             </Link>{" "}
             |{" "}
-            <Link style={style} to="/cookies#cookies">
+            <Link style={style} to="/cookies">
               Políticas de cookies
             </Link>{" "}
             |{" "}
-            <Link style={style} to="/condiciones#condiciones_de_uso">
+            <Link style={style} to="/condiciones">
               Condiciones de uso
             </Link>
           </p>

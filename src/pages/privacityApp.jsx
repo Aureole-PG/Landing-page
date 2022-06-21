@@ -1,9 +1,8 @@
+import { ScrollToTopOnMount } from "../components/scrollToTop";
 const PrivacityApp = () => {
   return (
-    <div
-      id="politica_de_Privacidad_app"
-      className="height black-green-background nav-height"
-    >
+    <div className="height black-green-background nav-height">
+      <ScrollToTopOnMount />
       <div className="container container-padding text-justify">
         <h2 className="t-title">Política de Privacidad APP</h2>
         <p className="t-description">

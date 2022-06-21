@@ -1,6 +1,8 @@
+import { ScrollToTopOnMount } from "../components/scrollToTop";
 const Cookies = () => {
   return (
-    <div id="cookies" className="height black-green-background nav-height">
+    <div className="height black-green-background nav-height">
+      <ScrollToTopOnMount />
       <div className="container container-padding text-justify">
         <h2 className="t-title">Política de Cookies</h2>
         <p className="t-paragraph">1. Información grabada en su equipo.</p>

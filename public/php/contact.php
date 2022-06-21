@@ -6,9 +6,9 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
-$DateAndTime = date('m-d-Y h:i:s a', time()); 
+$DateAndTime = $_POST['localdate'];; 
 
-$address = "web@unitedwom.com";
+$address = "paulisrael95@gmail.com";
 $e_subject = 'Contacto desde el portal web';
 
 $userAddress = $email;
@@ -31,23 +31,38 @@ $userHeaders = "From: $address" . PHP_EOL;
 $userHeaders .= "Reply-To: $address" . PHP_EOL;
 $userHeaders .= "MIME-Version: 1.0" . PHP_EOL;
 $userHeaders .= "Content-type: text/html; charset=utf-8" . PHP_EOL;
-// $userHeaders .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 
 $userMsg = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="https://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Este es un mensaje</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <title></title>
+    <!--[if mso]>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <style>
+    .img {
+        max-width: 35px;
+        display: block;
+        height: 25px;
+      }</style>
+    <![endif]-->
 
     <style>
       .img {
+        max-width: 35px;
+        display: block;
         height: 25px;
       }
-      .margin-inline {
-        margin-inline: 10px;
-      }
+      
       .social {
         display: flex;
         align-items: center;
@@ -77,10 +92,11 @@ $userMsg = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http
   </head>';
 
 $userMsg .= '<body>
-    <table style="width: 100%; background-color: #fff; padding: 15px; ">
+    <table style="width: 100%; background-color: #fff; padding: 5px; ">
       <tr>
         <td align="center">
           <img
+            width="125"
             style="width: 125px"
             src="https://www.unitedwom.com/logo192.png"
             alt=""
@@ -91,22 +107,22 @@ $userMsg .= "<tr>
         <td>
           <p>Hola $name</p>
           <p>
-            En <strong class='t-green'>unitedWom</strong> agradecemos que te
+            En <strong class='t-green'>UnitedWom</strong> agradecemos que te
             hayas puesto en contacto con nosotras. Te informamos que a día $DateAndTime hemos tomado nota de tu consulta.
           </p>
           <p>
-            Este mensaje es solo un confirmación automática de recepción.
+            Este mensaje es sólo un confirmación automática de recepción.
             Gestionaremos tu consulta a la mayor brevedad posible.
           </p>
           <p style='margin: 50px 0 40px'>
-            Gracias por confiar en <strong class='t-green'>unitedWom</strong>
+            Gracias por confiar en <strong class='t-green'>UnitedWom</strong>
           </p>
         </td>
       </tr>";
 $userMsg .= '
 <tr>
         <td>
-          <table style="width: 100%">
+          <table style="width: 100%;">
             <tr>
               <td align="center" style="width: 50%">
                 <p style="text-align: center">
@@ -116,22 +132,24 @@ $userMsg .= '
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><img class="img" src="https://www.unitedwom.com/icons/facebook.png" alt=""
-                  /></a>
+                    ><img width="12"  height="25" src="https://www.unitedwom.com/php/facebook.png" alt=""
+                  /> </a>
+                  &nbsp;
                   <a
                     class="margin-inline"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><img class="img" src="https://www.unitedwom.com/icons/instagram.png" alt=""
+                    ><img width="25"  height="25" src="https://www.unitedwom.com/php/instagram.png" alt=""
                   /></a>
+                  &nbsp;
                   <a
                     class="margin-inline"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><img class="img" src="https://www.unitedwom.com/icons/youtube.png" alt=""
-                  /></a>
+                    ><img width="35"  height="25" src="https://www.unitedwom.com/php/youtube.png" alt=""
+                  /> </a>
                 </p>
               </td>
               <td align="center" style="width: 50%">
@@ -143,14 +161,15 @@ $userMsg .= '
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img class="img" src="https://www.unitedwom.com/icons/app_store.png" alt="" />
+                    <img width="21"  height="25" src="https://www.unitedwom.com/php/app_store.png" alt="" />
                   </a>
+                  &nbsp;
                   <a
                     class="margin-inline"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><img class="img" src="https://www.unitedwom.com/icons/apple.png" alt=""
+                    ><img  width="25"  height="25" src="https://www.unitedwom.com/php/apple.png" alt=""
                   /></a>
                 </p>
               </td>

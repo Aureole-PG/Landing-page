@@ -1,3 +1,10 @@
 .about-height {
     min-height: 100vh;
 }
+select:invalid{
+    color: gray;
+}
+option{
+    color: #6c757d;
+}
+
