@@ -3,10 +3,7 @@ import "../styles/media.css";
 import DownloadButton from "../components/Button";
 const Media = () => {
   return (
-    <section
-      id="media"
-      className="purple-pink-background d-none d-sm-none d-md-block"
-    >
+    <section id="media" className="soft-green-background ">
       <div className="container container-padding ">
         <div className="media-container">
           <iframe

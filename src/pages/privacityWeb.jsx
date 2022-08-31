@@ -14,9 +14,9 @@ const PrivacityWeb = () => {
         <p className="t-description">
           Su denominación social es UNITEDWOM, S.L. <br />
           Su NIF es B42780791. <br />
-          Sudomicilio se ubica en Calle Padre Ramón María Aller, 6, 36201, Vigo
-          (Pontevedra) España. Está inscrita en el Registro Mercantil de
-          Pontevedra, Tomo 4350 libro, folio 110, hoja 67840 Y dispone de la
+          Su domicilio se ubica en Calle Serafín Avendaño, 10 1º Ofc. D2 36211,
+          Vigo (Pontevedra) España. Está inscrita en el Registro Mercantil de
+          Pontevedra, Tomo 4299 libro 113, folio 75, hoja 65753 y dispone de la
           siguiente dirección de correo electrónico de contacto
           lopd@unitedwom.com
         </p>
@@ -31,7 +31,7 @@ const PrivacityWeb = () => {
           derechos digitales y demás legislación vigente en materia de
           protección de datos.
         </p>
-        <p className="t-description">
+        <p className="t-paragraph">
           ¿Quién es el responsable del tratamiento de sus datos?
         </p>
         <p className="t-description">
@@ -41,7 +41,7 @@ const PrivacityWeb = () => {
           España. <br />
           Correo electrónico: lopd@unitedwom.com
         </p>
-        <p className="t-description">
+        <p className="t-paragraph">
           ¿Cuál es la finalidad y legitimación con las que tratamos sus datos y
           durante cuánto tiempo los conservamos?
         </p>
@@ -54,19 +54,19 @@ const PrivacityWeb = () => {
           conservaremos durante el tiempo necesario para ello y/o hasta que nos
           solicite su supresión.
         </p>
-        <p className="t-description">¿A quiénes se comunicarán sus datos?</p>
+        <p className="t-paragraph">¿A quiénes se comunicarán sus datos?</p>
         <p className="t-description">
           No se cederán sus datos a terceros. Se comunicarán a nuestras
           encargadas de tratamiento cuando sea necesario para la correcta
           prestación de los servicios contratados a las mismas.
         </p>
-        <p className="t-description">
+        <p className="t-paragraph">
           ¿Se realizarán transferencias de sus datos a terceros países?
         </p>
         <p className="t-description">
           No se van a realizar Transferencias Internacionales de sus datos.
         </p>
-        <p className="t-description">
+        <p className="t-paragraph">
           ¿Cuáles son sus derechos cuando nos facilita sus datos?
         </p>
         <p className="t-description">
@@ -101,16 +101,16 @@ const PrivacityWeb = () => {
           transmitirlos a otra responsable, siempre que sea técnicamente
           posible.
         </p>
-        <p className="t-description">¿Dónde podrá ejercitar sus derechos?</p>
+        <p className="t-paragraph">¿Dónde podrá ejercitar sus derechos?</p>
         <p className="t-description">
           El ejercicio de derechos deberá efectuarse por escrito, dirigiéndose a
-          Calle Padre Ramón María Aller, 6, 36201, Vigo (Pontevedra) España o al
-          correo electrónico lopd@unitedwom.com. UNITEDWOM, S.L., pone a su
+          Calle Serafín Avendaño, 10 1º Ofc. D2 36211, Vigo (Pontevedra) España
+          o al correo electrónico lopd@unitedwom.com. UNITEDWOM, S.L., pone a su
           disposición modelos para la realización del ejercicio de derechos que
           pueden obtenerse en la dirección o a través del correo electrónico
           indicado anteriormente. Para más información: www.agpd.es.
         </p>
-        <p className="t-description">
+        <p className="t-paragraph">
           ¿Tiene derecho a presentar una reclamación ante la Autoridad de
           Control?
         </p>

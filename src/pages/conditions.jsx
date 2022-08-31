@@ -7,21 +7,21 @@ const Conditions = () => {
         <h2 className="t-title">Condiciones de uso</h2>
         <p className="t-sub-title">Aviso Legal</p>
         <p className="t-description">
-          UnitedWom S.L. (en adelante, <b>UnitedWom</b> ) con NIF B42780791, y
-          domicilio en Calle Padre Ramón María Aller, 6 - (36201), Vigo,
-          inscrita en el Registro Mercantil de Vigo, Tomo: 4350, Folio: 110,
-          Sección: 8, Hoja Registral: 67840, Inscripción: 1.
+          UnitedWom S.L. (en adelante, UnitedWom) con NIF B27874791, y domicilio
+          en Calle Serafín Avendaño, 10 1º Ofc. D2 36211 Vigo (Pontevedra)
+          España, inscrita en el Registro Mercantil de Pontevedra, Tomo 4299
+          libro 113, folio 75, hoja 65753.
         </p>
         <p className="t-description">
-          <b>UnitedWom</b> pone la App a disposición de cualquier Usuaria que,
+          <b>UnitedWom</b> pone la App a disposición de cualquier usuaria que,
           en cumplimiento de las condiciones de la licencia de uso de la App, la
           descargue e instale en su dispositivo móvil.
         </p>
         <p className="t-description">
           <b>UnitedWom</b> facilita la dirección de correo electrónico
           <a href="mailto:lopd@unitedwom.com">lopd@unitedwom.com</a> como
-          principal medio de contacto y para la atención de dudas, consultas,
-          sugerencias o quejas.
+          principal medio de contacto y para la atención de dudas, consultas
+          relativas a cuestiones de protección de datos.
         </p>
         <p className="t-sub-title">
           Términos y Condiciones de Uso de UnitedWom.
@@ -33,7 +33,7 @@ const Conditions = () => {
 
             <ol type="a">
               <li>
-                La Aplicación está a disposición de las Usuarias de dispositivos
+                La Aplicación está a disposición de las usuarias de dispositivos
                 móviles (tanto teléfonos móviles como tablets) con sistema
                 operativo iOS o Android, a través de la tienda de aplicaciones
                 de Apple, la App Store o de Google Play, con la finalidad de
@@ -63,7 +63,7 @@ const Conditions = () => {
                 Los Términos Generales de Uso aquí recogidos son suscritos, de
                 una parte, por UnitedWom S.L., (en adelante UnitedWom), como
                 representante de la aplicación UnitedWom (en adelante, la App)
-                y, de otra, por la Usuaria, entendida como la persona mayor de
+                y, de otra, por la usuaria, entendida como la persona mayor de
                 18 años que descarga, instala, descarga o accede a UnitedWom, en
                 forma deliberada, voluntaria y gratuita, independientemente de
                 que haga uso o no de algunos de los servicios y herramientas de
@@ -102,14 +102,11 @@ const Conditions = () => {
                 En la aplicación de UnitedWom, la Usuaria puede crear su perfil
                 en la App para visualizar el contenido publicado por la
                 comunidad de UnitedWom y poder contactar con el resto de las
-                usuarias.
-              </li>
-              <li>
-                Para poder interactuar en la App, la Usuaria deberá registrarse
-                verificando previamente su número de teléfono móvil. Una vez que
-                la Usuaria esté registrada, podrá acceder a la comunidad de
-                UnitedWom, donde podrá compartir, crear actividades e
-                interactuar con el resto de las Usuarias de la plataforma.
+                usuarias. Para poder interactuar en la App, la usuaria deberá
+                registrarse verificando previamente su número de teléfono móvil.
+                Una vez que la usuaria esté registrada, podrá acceder a la
+                comunidad de UnitedWom, donde podrá compartir, crear actividades
+                e interactuar con el resto de las usuarias de la plataforma.
               </li>
               <li>
                 UnitedWom puede incluir publicidad propia o de terceras
@@ -118,11 +115,11 @@ const Conditions = () => {
               <li>
                 UnitedWom permite a las Usuarias de su App publicar posts o
                 cualquier actividad que quieran compartir con la comunidad.
-                Además, la Usuaria pueden compartir, comentar o dar a “Me gusta”
-                al resto de publicaciones de otras Usuarias.
+                Además, las usuarias pueden compartir, comentar o dar a “Me
+                gusta” al resto de publicaciones de otras usuarias.
               </li>
               <li>
-                Las declaraciones y publicaciones de las Usuarias serán bajo su
+                Las declaraciones y publicaciones de las usuarias serán bajo su
                 propia responsabilidad y deberán respetar los criterios aquí
                 establecidos, siendo ajenas a UnitedWom.
               </li>
@@ -187,7 +184,7 @@ const Conditions = () => {
               </li>
               <li>
                 En caso contrario a estos Términos, UnitedWom podrá tomar
-                acciones preventivas tales como el bloqueo de la Usuaria o
+                acciones preventivas tales como el bloqueo de la usuaria o
                 acciones civiles y penales a que hubiere lugar.
               </li>
             </ol>
@@ -199,17 +196,17 @@ const Conditions = () => {
               <li>
                 UnitedWom no es responsable del contenido de las publicaciones
                 ni de lo que compartas en los mismos. Si consideras que una
-                Usuaria ha cometido alguna infracción, puedes ponerte en
+                usuaria ha cometido alguna infracción, puedes ponerte en
                 contacto con UnitedWom a través del correo lopd@unitedwom.com
                 para que tomemos las medidas necesarias.
               </li>
               <li>
-                Además de lo dispuesto en los presentes términos, toda Usuaria
+                Además de lo dispuesto en los presentes términos, toda usuaria
                 de UnitedWom debe respetar las siguientes normas:
                 <p className="t-description">
-                  Compartir publicaciones, fotos que la Usuaria pueda compartir,
+                  Compartir publicaciones, fotos que la usuaria pueda compartir,
                   aptos para un público diverso, siendo de su autoría o bien con
-                  autorización del autor, contemplando los criterios aquí
+                  autorización de la autora, contemplando los criterios aquí
                   establecidos para evitar denuncias.
                 </p>
                 <p className="t-description">
@@ -244,7 +241,7 @@ const Conditions = () => {
                 derechos afectados.
               </li>
               <li>
-                Asimismo, se informa de que las Usuarias deben ser propietarias
+                Asimismo, se informa de que las usuarias deben ser propietarias
                 de los derechos de cualquier contenido que suban a la Plataforma
                 debiendo responder por sus publicaciones, no siendo en ningún
                 caso UnitedWom responsable de tales acciones y contenido.
@@ -262,7 +259,7 @@ const Conditions = () => {
               <li>
                 UnitedWom ofrece los servicios y funcionalidades de la App y
                 trabaja constantemente para que estén disponibles para sus
-                Usuarias. No obstante, UnitedWom funcionará en forma óptima
+                usuarias. No obstante, UnitedWom funcionará en forma óptima
                 según la disponibilidad y según las limitaciones que pudieren
                 ocurrir en cada momento.
               </li>
@@ -275,20 +272,20 @@ const Conditions = () => {
                 puede garantizarse la ausencia de virus o de otros elementos
                 dañinos en UnitedWom o en sitios de terceros que puedan producir
                 alteraciones en el sistema informático, tanto software como
-                hardware, de la Usuaria. Por esta razón, la Usuaria asume y
+                hardware, de la usuaria. Por esta razón, la usuaria asume y
                 comprende que existan situaciones que puedan escapar al control
                 de la App debiendo tomar las prevenciones que crea convenientes.
               </li>
               <li>
                 UnitedWom se exime de toda responsabilidad por el acceso
                 indebido a contenidos como consecuencia del registro que por
-                parte de la Usuaria se haga aportando deliberadamente datos
+                parte de la usuaria se haya aportando deliberadamente datos
                 falsos o inexactos sobre su edad, persona, imágenes,
                 publicaciones, etc.
               </li>
               <li>
                 UnitedWom declina toda responsabilidad que se derive de un mal
-                uso de la App por la Usuaria de UnitedWom, así como por el
+                uso de la App por la usuaria de UnitedWom, así como por el
                 incumplimiento de las obligaciones o compromisos asumidos en
                 virtud de las presentes Condiciones Generales o en cualesquiera
                 otras que resultaran aplicables.
@@ -296,19 +293,19 @@ const Conditions = () => {
               <li>
                 En caso de daño emergente, lucro cesante y/o por cualquier
                 cuestión que genere alguna indemnización a terceros o a la
-                Usuaria derivada del uso de la App, UnitedWom ni sus
+                usuaria derivada del uso de la App, UnitedWom ni sus
                 dependientes serán responsables por ello.
               </li>
               <li>
                 Del mismo modo ocurrirá en caso de que, como consecuencia de los
-                incumplimientos de la Usuaria, se produjeran reclamaciones de
+                incumplimientos de la usuaria, se produjeran reclamaciones de
                 terceras contra UnitedWom, en cuyo caso, aquella dejará indemne
                 a esta, pudiéndosele reclamar por repetición cualquier gasto,
                 coste, daño o perjuicio derivado de sus acciones, hayan sido
                 voluntarias o no.
               </li>
               <li>
-                UnitedWom puede ser utilizada para que la Usuaria incluya
+                UnitedWom puede ser utilizada para que la usuaria incluya
                 contenidos en la propia aplicación, así como en Facebook y otras
                 redes o plataformas. UnitedWom no se encuentra bajo moderación
                 previa de los contenidos, sin embargo, hará lo posible por
@@ -344,7 +341,7 @@ const Conditions = () => {
               </li>
               <li>
                 Respecto de los enlaces compartidos y publicados en la App, la
-                Usuaria reconoce y acepta que tales enlaces dirigen a sitios
+                usuaria reconoce y acepta que tales enlaces dirigen a sitios
                 externos y ajenos, tanto a UnitedWom y que éste no aprueba ni
                 analiza las funciones, publicidad o, en general, el contenido
                 incluido en páginas externas; por ello, ésta no puede garantizar
@@ -360,18 +357,18 @@ const Conditions = () => {
             <ol type="a">
               <li>
                 La garantía y cumplimiento de estos Términos y Condiciones se
-                entienden vigentes por todo el tiempo que la Usuaria mantenga su
+                entienden vigentes por todo el tiempo que la usuaria mantenga su
                 cuenta en UnitedWom.
               </li>
               <li>
-                La Usuaria podrá dar por finalizadas estas Condiciones
-                simplemente cancelando su cuenta de Usuaria a través de las
+                La usuaria podrá dar por finalizadas estas Condiciones
+                simplemente cancelando su cuenta de usuaria a través de las
                 herramientas de la App para cerrar su cuenta solicitando la
                 baja.
               </li>
               <li>
                 Por su parte, UnitedWom se reserva el derecho de resolver estas
-                Condiciones o de bloquear o eliminar la cuenta cuando la Usuaria
+                Condiciones o de bloquear o eliminar la cuenta cuando la usuaria
                 demuestre un incumplimiento grave y/o reiterado de las
                 condiciones aquí expuestas o de cualesquiera otras condiciones
                 que le fueran de aplicación.
@@ -383,13 +380,13 @@ const Conditions = () => {
             <ol type="a">
               <li>
                 La compilación y el tratamiento de los datos personales de la
-                Usuaria recabados por UnitedWom a través de la App se rige por
+                usuaria recabados por UnitedWom a través de la App se rige por
                 una Política de Privacidad que puede conocer accediendo a la
                 misma y que se encuentra publicada en la App de UnitedWom, y
                 previamente en la tienda de aplicaciones.
               </li>
               <li>
-                En cualquier momento la Usuaria podrá modificar sus datos de la
+                En cualquier momento la usuaria podrá modificar sus datos de la
                 cuenta, o cancelar la misma a través de las funcionalidades
                 disponibles en la plataforma o solicitándolo al correo de
                 UnitedWom.
@@ -418,7 +415,7 @@ const Conditions = () => {
               <li>
                 El idioma aplicable a estas condiciones es el español. Si se
                 ofrece una versión en inglés es por mera cortesía, para la
-                comodidad de la Usuaria. Por ello la Usuaria acepta expresamente
+                comodidad de la usuaria. Por ello la usuaria acepta expresamente
                 que las mismas se rijan por su versión en español.
               </li>
             </ol>
@@ -436,7 +433,7 @@ const Conditions = () => {
                 notificaciones.
               </li>
               <li>
-                La Usuaria reconoce, acepta y comprende que UnitedWom no seremos
+                La usuaria reconoce, acepta y comprende que UnitedWom no seremos
                 en ningún caso responsables por la falta de recepción por tu
                 parte de la información o notificaciones enviadas, por ellos te
                 pediremos que estés atenta a los medios de comunicación que
@@ -450,7 +447,7 @@ const Conditions = () => {
             <p className="t-paragraph">Legislación y fuero.</p>
             <ol type="a">
               <li>
-                Las relaciones entre UnitedWom y la Usuaria, se regirán por la
+                Las relaciones entre UnitedWom y la usuaria, se regirán por la
                 legislación española y, en caso de conflicto en la
                 interpretación o cumplimiento de las presentes Condiciones se
                 someterán, con renuncia expresa a cualquier otro fuero que

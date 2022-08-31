@@ -9,10 +9,7 @@ const Scroll = () => {
         <a className="tabs point nav-link" href="#home"></a>
         <a className="tabs point nav-link" href="#nosotras_hacemos"></a>
         <a className="tabs point nav-link" href="#categorias"></a>
-        <a
-          className="tabs point d-none d-sm-none d-md-block nav-link"
-          href="#media"
-        ></a>
+        <a className="tabs point nav-link" href="#media"></a>
         <a className="tabs point nav-link " href="#nuestra_historia"></a>
         <a className="tabs point nav-link " href="#preguntas_frecuentes"></a>
         <a className="tabs point nav-link" href="#contacto"></a>

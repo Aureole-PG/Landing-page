@@ -8,7 +8,7 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 $DateAndTime = $_POST['localdate'];; 
 
-$address = "paulisrael95@gmail.com";
+$address = "web@unitedwom.com";
 $e_subject = 'Contacto desde el portal web';
 
 $userAddress = $email;
@@ -129,7 +129,7 @@ $userMsg .= '
                   SÍGUENOS
                   <a
                     class="margin-inline"
-                    href=""
+                    href="https://www.facebook.com/UnitedWom"
                     target="_blank"
                     rel="noopener noreferrer"
                     ><img width="12"  height="25" src="https://www.unitedwom.com/php/facebook.png" alt=""
@@ -137,7 +137,7 @@ $userMsg .= '
                   &nbsp;
                   <a
                     class="margin-inline"
-                    href=""
+                    href="https://www.instagram.com/unitedwom/"
                     target="_blank"
                     rel="noopener noreferrer"
                     ><img width="25"  height="25" src="https://www.unitedwom.com/php/instagram.png" alt=""
@@ -145,7 +145,7 @@ $userMsg .= '
                   &nbsp;
                   <a
                     class="margin-inline"
-                    href=""
+                    href="https://www.youtube.com/channel/UCaUqPX8GABQZKMQgiX99cYw"
                     target="_blank"
                     rel="noopener noreferrer"
                     ><img width="35"  height="25" src="https://www.unitedwom.com/php/youtube.png" alt=""

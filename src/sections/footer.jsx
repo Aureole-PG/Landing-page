@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="d-flex flex-column justify-content-center align-items-center footer">
           <img src={logo} alt="" />
           <GreenSocialMedia />
-          <p className="t-color">
+          <p className="t-color text-center">
             <Link style={style} to="/privacidadWeb">
               Política de privacidad web
             </Link>{" "}

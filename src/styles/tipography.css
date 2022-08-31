@@ -8,10 +8,10 @@
     font-size:clamp(3vh, 2vw, 2rem); /*35pt*/
 }
 .t-paragraph{
-    font-size: clamp(2vh, 1.3vw, 1.5rem); /*24pt*/
+    font-size: clamp(3vh, 1.3vw, 1.5rem); /*24pt*/
 }
 .t-description{
-    font-size: clamp(1.5vh, 1.1vw, 1rem);/*21pt*/
+    font-size: clamp(2vh, 1.1vw, 1rem);/*21pt*/
 }
 .t-button{
     font-size: clamp(1.9vh, 1.2vw, 1.4rem); /*25pt*/
